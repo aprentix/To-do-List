@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+.white{
+    background: black;
+}
+
+header{
+    position:fixed;
+    width: 100%;
+    height: 150px;
+    z-index: 0;
+    background: rgba(115, 247, 252, 0.842);
+    box-shadow: rgba(67, 214, 207, 0.801) 1px 5px 15px;
+}
+.caja{
+    width:500px;
+    background: -webkit-linear-gradient(to right, #eec596, #dbf0a2, #def3ab); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #c8faa6, #f3d368); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    height: auto;
+    position: relative;
+    text-align: center;
+    justify-content:center;
+    display: block;    
+    border-radius: 20px;
+    margin:20px;
+    margin-top:50px;
+    box-shadow: rgba(77, 75, 75, 0.329) 8px 9px 20px;
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+#first_title{
+    font-size: 50px;
+    font-family: 'Italianno', cursive;
+    padding:20px;
+    font-weight:bold;
+}
+
+.normal{
+    width:80%;
+    height:25px;
+    border-radius: 20px;
+    outline: none;
+    background: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cuidado{
+    width:80%;
+    height:25px;
+    border-radius: 20px;
+    border: rgba(255, 0, 0, 0.795) solid 2px;
+    outline: red solid 2px;
+    background: rgba(233, 37, 37, 0.37);
+    color:rgb(0, 0, 0);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cuidado:focus{
+    background: rgba(219, 12, 12, 0.747);
+}
+.normal:focus{
+    background: rgba(71, 255, 230, 0.664);
+}
+
+#field_create_task{
+    display:block;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+.delete{
+    width:25px;
+    height: 25px;
+    background: rgba(174, 245, 127, 0.74);
+    border-radius: 50%;
+    text-align: center;
+    margin:5px;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+}
+
+.delete:active{
+    background: rgba(240, 31, 118, 0.658);
+}
+
+.center{
+    width: 10px;
+    height: 2px;
+    background: black;
+    justify-content: center;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plus{
+    width: 5px;
+    height: 5px;
+    background: rgb(0, 0, 0);
+    transform: rotate(45deg);
+    justify-content: center;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.task_description{
+    width:85%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.856);
+    border-radius: 20px;
+    font-family: monospace;
+    font-size: 18px;
+    padding: 5px;
+}
+
+
+.task{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+input{
+    accent-color:rgb(14, 119, 22);
+    margin: 5px;
+    font-family: monospace;
+    font-size: 20px;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#list.task{
+    display: flex;
+}
+
+
+#delete_all{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(71, 255, 230, 0.664);
+}
+
+.addbtn{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.664);
+    margin-top: 5px;
+    margin-bottom: auto;
+    font-family: 'Indie Flower', cursive;
+}
+
+.addbtn:hover{
+    background: rgba(220, 231, 67, 0.651);
+}
+
+.addbtn:active{
+    background: rgba(220, 231, 67, 0.651);
+}
+
+#del_sel{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(174, 245, 127, 0.74);
+}
+
+#delete_all:hover{
+    background: rgba(255, 175, 71, 0.664);
+    transition-duration: 1s;
+}
+
+#delete_all:active{
+    background: rgba(255, 71, 71, 0.664);
+    transition-duration: 1s;
+}
+
+.cent{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#del_sel:hover{
+    background: rgba(250, 247, 50, 0.74);
+    transition-duration: 1s;
+}
+
+#delete_selected{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+#changeM{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(25, 26, 25, 0.664);
+}
+
+/*
+font-family: 'Dancing Script', cursive;
+font-family: 'Ephesis', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Italianno', cursive;
+font-family: 'Montserrat Alternates', sans-serif;
+*/

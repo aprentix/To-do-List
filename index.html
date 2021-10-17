@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ephesis&family=Great+Vibes&family=Indie+Flower&family=Italianno&family=Montserrat+Alternates:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <header>
+    </header>
+    <section>
+        <div class="caja">
+            <div id="first_title">To-do List</div>
+        <div id="field_create_task">
+            <input type="text" id="tarea" placeholder="Add a new Task" maxlength="30" class="normal" onkeyup="validaLong()">
+            <button id="add_button" class="addbtn"><span class="cent">Add</span></button>
+        </div>
+        <div id="list">
+            
+        </div>
+        <div id="delete_selected">
+            <!--Botón para borrar todo en la lista-->
+            <button id="delete_all"> 
+                <span class="cent">
+                    <span class="material-icons">&#xe872;</span>
+                </span>                   
+            </button>
+            <!--Botón para borrar cambiar a modo oscuro-->
+            <button id="changeM" onclick="cambio()"> 
+                <span class="cent">
+                </span>                   
+            </button>
+        </div>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+    <script src=index.js></script>
+</body>
+</html>
