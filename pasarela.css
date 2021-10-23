@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cajac1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.tajetac1{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 300px;
+    height: 400px;
+    background: rgba(68, 235, 235, 0.589);
+    border-radius: 20px;
+    padding: 40px;
+    padding-top: 50px;
+    box-shadow: rgba(0, 0, 139, 0.322) 5px 10px 4px;
+    transition-duration: 1.5s;
+}
+
+.out{
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 255, 255, 0.671);
+    border-radius: 2px;
+}
+
+.tajetac1:hover{
+    background: rgba(255, 255, 255, 0.144);
+    transition-duration: 1.5s;
+    box-shadow: rgba(0, 0, 139, 0.322) -3px -5px 4px;
+}
+
+.tit{
+    font-size: 70px;
+    margin: 20px;
+    font-family: 'Festive', cursive;}
+
+.user_name{
+    text-align: center;
+    width: auto;
+    height: 25px;
+    position: relative;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+
+.password{
+    text-align: center;
+    width: auto;
+    height: 25px;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.email{
+    text-align: center;
+    width: auto;
+    height: 25px;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.enviar_data{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
